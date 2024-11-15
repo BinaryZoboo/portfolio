@@ -9,7 +9,7 @@ export default function ProjectsCarousel() {
 
   useEffect(() => {
     // Récupération des données depuis le fichier JSON
-    fetch("src/data/projects.json")
+    fetch("../public/data/projects.json")
       .then((response) => response.json())
       .then((data) => setCards(data))
       .catch((error) => console.error("Error fetching projects:", error));

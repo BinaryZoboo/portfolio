@@ -1,6 +1,6 @@
 [
   {
-    "image": "src/assets/booki.webp",
+    "image": "../public/assets/booki.webp",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
@@ -10,7 +10,7 @@
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
   },
   {
-    "image": "src/assets/booki.webp",
+    "image": "../public/assets/booki.webp",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
@@ -20,7 +20,7 @@
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
   },
   {
-    "image": "src/assets/booki.webp",
+    "image": "../public/assets/booki.webp",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
@@ -30,7 +30,7 @@
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
   },
   {
-    "image": "src/assets/booki.webp",
+    "image": "../public/assets/booki.webp",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",

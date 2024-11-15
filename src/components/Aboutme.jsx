@@ -5,7 +5,7 @@ export default function Aboutme() {
         {/* Image Section */}
         <div className="h-48 w-full  rounded-2xl bg-zinc-800 sm:w-1/3 md:mr-5">
           <img
-            src="src/assets/1676755037667.webp"
+            src="../../assets/1676755037667.webp"
             alt="Description of image"
             className="size-full object-cover"
           />
