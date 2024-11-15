@@ -1,6 +1,6 @@
-import Aboutme from "../component/Aboutme";
-import ProjectsCarousel from "../component/ProjectsCarousel";
-import Navbar from "../component/navbar";
+import Aboutme from "../components/Aboutme";
+import Navbar from "../components/Navbar";
+import ProjectsCarousel from "../components/ProjectsCarousel";
 
 const Home = () => {
   return (
