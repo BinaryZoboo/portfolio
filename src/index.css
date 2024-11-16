@@ -67,6 +67,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Roboto Mono", sans-serif !important;
   font-weight: 500;

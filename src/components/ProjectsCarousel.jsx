@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Element } from "react-scroll";
 import CardProjects from "./CardProjects";
 
 export default function ProjectsCarousel() {
@@ -30,7 +31,12 @@ export default function ProjectsCarousel() {
   };
 
   return (
-    <div className="mx-auto max-h-min w-full overflow-hidden rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
+    <div className="mx-auto flex max-h-min flex-col items-center overflow-hidden rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
+      <Element className="self-start" name="project">
+        <h3 className="bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-regal-zinc-100">
+          • Projets
+        </h3>
+      </Element>
       <div className="relative w-full">
         {/* Conteneur pour les slides */}
         <div

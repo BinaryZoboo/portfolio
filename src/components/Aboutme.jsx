@@ -1,6 +1,16 @@
+import { Element } from "react-scroll";
+
 export default function Aboutme() {
   return (
-    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4 md:p-8 dark:bg-regal-zinc-200">
+    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4 dark:bg-regal-zinc-200">
+      <Element className="self-start" name="aboutme">
+        <h3
+          id="aboutme"
+          className="self-start bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-regal-zinc-100"
+        >
+          • À propos de moi
+        </h3>
+      </Element>
       <div className="flex w-full flex-col items-center space-y-6 sm:flex-row sm:space-y-0">
         {/* Image Section */}
         <div className="h-60 rounded-2xl md:mr-5">
@@ -14,9 +24,9 @@ export default function Aboutme() {
         {/* Text Section */}
         <div className="w-full flex-col space-y-3 text-center sm:w-2/3 sm:text-left">
           <p className="font-mono text-zinc-100">
-            <span className="text-pink-400 opacity-60">{"<span>"}</span>Salut,
+            <span className="text-pink-400 opacity-80">{"<span>"}</span>Salut,
             je m&apos;appelle Nathan
-            <span className="text-pink-400 opacity-60">{"</span>"}</span>
+            <span className="text-pink-400 opacity-80">{"</span>"}</span>
           </p>
 
           <h1 className="text-2xl font-bold text-zinc-100 md:text-3xl lg:text-4xl">
@@ -28,7 +38,7 @@ export default function Aboutme() {
             </div>
           </h1>
 
-          <div className="max-w-full font-mono text-zinc-400">
+          <div className="max-w-full font-mono text-zinc-300">
             <span className="opacity-60">{"<p>"}</span>
             Avec une expertise des technologies à la pointe telles que
             <span className="text-pink-400"> NodeJS</span>,

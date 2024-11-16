@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 // Composant NavLink pour les liens de navigation
 const NavLink = ({ to, children }) => (
@@ -111,10 +111,10 @@ export default function Navbar() {
 
         {/* Nav Links pour desktop */}
         <nav className="hidden size-full items-center justify-center space-x-6 bg-zinc-100 md:flex dark:bg-regal-zinc-200">
-          <NavLink to="/about">About me</NavLink>
-          <NavLink to="/resume">Projects</NavLink>
-          <NavLink to="/services">Services</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="aboutme">A propos de moi</NavLink>
+          <NavLink to="project">Projets</NavLink>
+          <NavLink to="skills">Compétences</NavLink>
+          <NavLink to="contact">Contact</NavLink>
         </nav>
 
         {/* Dark Mode Button */}
@@ -162,10 +162,10 @@ export default function Navbar() {
       {/* Menu mobile */}
       {isMenuOpen && (
         <nav className="flex flex-col items-center space-y-4 border-t border-atlantis bg-zinc-100 py-4 md:hidden dark:bg-regal-zinc-200">
-          <NavLink to="/about">About me</NavLink>
-          <NavLink to="/resume">Projects</NavLink>
-          <NavLink to="/services">Services</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="aboutme">A propos de moi</NavLink>
+          <NavLink to="project">Projets</NavLink>
+          <NavLink to="skills">Compétences</NavLink>
+          <NavLink to="contact">Contact</NavLink>
         </nav>
       )}
     </header>
