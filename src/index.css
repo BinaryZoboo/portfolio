@@ -3,9 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-family: "CommitMono";
-  }
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -68,4 +65,9 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+* {
+  font-family: "Roboto Mono", sans-serif !important;
+  font-weight: 600;
 }
