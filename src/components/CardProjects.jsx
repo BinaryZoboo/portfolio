@@ -17,7 +17,7 @@ export default function CardProject({
         <div className="items-center justify-center bg-gray-800 p-6 md:flex md:w-1/3">
           <img
             src={image}
-            className="flex w-full items-center justify-center bg-black object-fill text-lg font-bold text-white"
+            className="flex w-full items-center justify-center object-fill text-lg font-bold text-white"
           />
         </div>
         {/* Right side - Project info */}

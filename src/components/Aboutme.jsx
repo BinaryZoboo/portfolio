@@ -1,13 +1,13 @@
 export default function Aboutme() {
   return (
-    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-5/6 md:p-8 dark:bg-regal-zinc-200">
-      <div className="flex w-full flex-col items-center justify-between space-y-6 sm:flex-row sm:space-y-0">
+    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4 md:p-8 dark:bg-regal-zinc-200">
+      <div className="flex w-full flex-col items-center space-y-6 sm:flex-row sm:space-y-0">
         {/* Image Section */}
-        <div className="h-48 w-full  rounded-2xl bg-zinc-800 sm:w-1/3 md:mr-5">
+        <div className="h-60 rounded-2xl md:mr-5">
           <img
-            src="../../assets/1676755037667.webp"
+            src="../../assets/photo.webp"
             alt="Description of image"
-            className="size-full object-cover"
+            className="h-full object-fill"
           />
         </div>
 

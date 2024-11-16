@@ -30,7 +30,7 @@ export default function ProjectsCarousel() {
   };
 
   return (
-    <div className="mx-auto max-h-min w-full overflow-hidden rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-5/6  dark:bg-regal-zinc-200">
+    <div className="mx-auto max-h-min w-full overflow-hidden rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
       <div className="relative w-full">
         {/* Conteneur pour les slides */}
         <div

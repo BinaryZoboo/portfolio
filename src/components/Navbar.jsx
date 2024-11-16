@@ -58,7 +58,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-2 z-10 mx-auto w-full overflow-hidden rounded-lg ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-5/6">
+    <header className="sticky top-2 z-10 mx-auto w-full overflow-hidden rounded-lg ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4">
       <div className="flex h-14 w-full items-center justify-between bg-zinc-100 md:mx-auto dark:bg-regal-zinc-100">
         {/* IconButton pour le menu hamburger */}
         <div className="flex h-full items-center px-4 md:hidden ">
