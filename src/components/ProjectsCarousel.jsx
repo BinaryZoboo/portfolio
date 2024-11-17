@@ -31,13 +31,13 @@ export default function ProjectsCarousel() {
   };
 
   return (
-    <div className="mx-auto flex max-h-min flex-col items-center overflow-hidden rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
+    <div className="mx-auto flex flex-col items-center rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
       <Element className="self-start" name="project">
-        <h3 className="bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-regal-zinc-100">
+        <h2 className="bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-lime-800">
           • Projets
-        </h3>
+        </h2>
       </Element>
-      <div className="relative w-full">
+      <div className="relative w-full overflow-hidden rounded-lg border border-lime-900 p-3">
         {/* Conteneur pour les slides */}
         <div
           className="flex transition-transform duration-500 ease-in-out"

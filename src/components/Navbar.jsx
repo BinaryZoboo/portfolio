@@ -110,7 +110,7 @@ export default function Navbar() {
         </Link>
 
         {/* Nav Links pour desktop */}
-        <nav className="hidden size-full items-center justify-center space-x-6 bg-zinc-100 md:flex dark:bg-regal-zinc-200">
+        <nav className="hidden size-full cursor-pointer items-center justify-center space-x-6 bg-zinc-100 md:flex dark:bg-regal-zinc-200">
           <NavLink to="aboutme">A propos de moi</NavLink>
           <NavLink to="project">Projets</NavLink>
           <NavLink to="skills">Compétences</NavLink>
@@ -161,7 +161,7 @@ export default function Navbar() {
 
       {/* Menu mobile */}
       {isMenuOpen && (
-        <nav className="flex flex-col items-center space-y-4 border-t border-atlantis bg-zinc-100 py-4 md:hidden dark:bg-regal-zinc-200">
+        <nav className="flex cursor-pointer flex-col items-center space-y-4 border-t border-atlantis bg-zinc-100 py-4 md:hidden dark:bg-regal-zinc-200">
           <NavLink to="aboutme">A propos de moi</NavLink>
           <NavLink to="project">Projets</NavLink>
           <NavLink to="skills">Compétences</NavLink>

@@ -3,14 +3,7 @@ import { Element } from "react-scroll";
 export default function Aboutme() {
   return (
     <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4 dark:bg-regal-zinc-200">
-      <Element className="self-start" name="aboutme">
-        <h3
-          id="aboutme"
-          className="self-start bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-regal-zinc-100"
-        >
-          • À propos de moi
-        </h3>
-      </Element>
+      <Element className="hidden self-start" name="aboutme"></Element>
       <div className="flex w-full flex-col items-center space-y-6 sm:flex-row sm:space-y-0">
         {/* Image Section */}
         <div className="h-60 rounded-2xl md:mr-5">
@@ -22,23 +15,21 @@ export default function Aboutme() {
         </div>
 
         {/* Text Section */}
-        <div className="w-full flex-col space-y-3 text-center sm:w-2/3 sm:text-left">
-          <p className="font-mono text-zinc-100">
-            <span className="text-pink-400 opacity-80">{"<span>"}</span>Salut,
-            je m&apos;appelle Nathan
+        <div className="flex w-full flex-col space-y-3 text-center sm:w-2/3 sm:text-left">
+          <p className="text-zinc-100">
+            <span className="text-pink-400 opacity-80">{"<span>"}</span>Hey, je
+            m&apos;appelle Nathan
             <span className="text-pink-400 opacity-80">{"</span>"}</span>
           </p>
 
-          <h1 className="text-2xl font-bold text-zinc-100 md:text-3xl lg:text-4xl">
-            <div className="text-zinc-100">
+          <h1 className="text-balance text-4xl font-bold text-zinc-100 md:text-5xl lg:text-6xl">
+            <p className="flex flex-wrap text-zinc-100 ">
               Junior&nbsp;<span className="text-green-400">{"{Web}"}</span>
-              <p className="text-zinc-100">
-                Developer<span className="animate-pulse">_</span>
-              </p>
-            </div>
+              &nbsp;Developer<span className="animate-pulse">_</span>
+            </p>
           </h1>
 
-          <div className="max-w-full font-mono text-zinc-300">
+          <div className="font-mono text-zinc-300">
             <span className="opacity-60">{"<p>"}</span>
             Avec une expertise des technologies à la pointe telles que
             <span className="text-pink-400"> NodeJS</span>,
@@ -51,16 +42,20 @@ export default function Aboutme() {
 
           {/* Icons Section */}
           <div className="flex flex-wrap justify-center gap-4 pt-4 sm:justify-start">
-            {["N", "M", "JS", "~"].map((icon, index) => (
-              <div
+            {[
+              "nodejs.svg",
+              "mongodb-original-wordmark.svg",
+              "javascript-js.svg",
+              "react-original-wordmark.svg",
+            ].map((icon, index) => (
+              <img
                 key={index}
-                className="flex size-10 items-center justify-center rounded-full bg-zinc-800 text-zinc-300"
-              >
-                {icon}
-              </div>
+                className="flex size-10 items-center justify-center text-zinc-300"
+                src={`../../assets/${icon}`}
+              ></img>
             ))}
-            <div className="flex size-10 items-center justify-center rounded-full bg-zinc-800 text-xs text-zinc-300">
-              ...
+            <div className="flex items-end text-xs text-zinc-300 opacity-80">
+              et plus encore...
             </div>
           </div>
 
