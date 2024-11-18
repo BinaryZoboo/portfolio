@@ -31,13 +31,13 @@ export default function ProjectsCarousel() {
   };
 
   return (
-    <div className="mx-auto flex flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
-      <Element className="self-start" name="project">
-        <h2 className="bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-lime-800">
+    <div className="mx-auto flex flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-sky-500 ring-offset-4 ring-offset-inherit md:w-3/4 dark:bg-regal-zinc-200 dark:ring-atlantis  dark:ring-offset-regal-zinc-300">
+      <Element className="mb-4 self-start" name="project">
+        <h2 className="bg-gradient-to-r from-sky-500 to-sky-800 bg-clip-text text-transparent dark:from-atlantis dark:to-lime-800">
           • Projets
         </h2>
       </Element>
-      <div className="relative w-full overflow-hidden rounded-lg border border-lime-900 p-3">
+      <div className="relative w-full overflow-hidden rounded-lg border border-sky-800 px-12  py-6 min-[520px]:px-6 dark:border-lime-900">
         {/* Conteneur pour les slides */}
         <div
           className="flex transition-transform duration-500 ease-in-out"
@@ -48,7 +48,7 @@ export default function ProjectsCarousel() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className=" w-full shrink-0" // Fixe la hauteur minimale des cartes
+              className="w-full shrink-0" // Fixe la hauteur minimale des cartes
               style={{
                 opacity: index === currentIndex ? 1 : 0, // Rendre la carte active visible
                 transition: "opacity 0.5s ease-in-out", // Transition de fondu pour une animation fluide
@@ -62,12 +62,12 @@ export default function ProjectsCarousel() {
         </div>
 
         {/* Boutons de navigation */}
-        <div className="absolute bottom-8 right-4 items-center justify-center space-x-4 px-4">
+        <div className="static w-full items-center justify-center space-x-4 px-4">
           {/* Boutons de navigation */}
           <Button
             variant="outline"
             size="icon"
-            className="bg-background/80 backdrop-blur-sm"
+            className="absolute left-1 top-1/2 z-50 bg-background/80 text-sky-500 backdrop-blur-sm min-[520px]:bottom-9 min-[520px]:left-auto min-[520px]:right-20 min-[520px]:top-auto dark:text-atlantis"
             onClick={prevSlide}
           >
             <ChevronLeft className="size-4" />
@@ -76,7 +76,7 @@ export default function ProjectsCarousel() {
           <Button
             variant="outline"
             size="icon"
-            className="bg-background/80 backdrop-blur-sm"
+            className="absolute right-1 top-1/2 bg-background/80 text-sky-500 backdrop-blur-sm min-[520px]:bottom-9 min-[520px]:right-5 min-[520px]:top-auto dark:text-atlantis"
             onClick={nextSlide}
           >
             <ChevronRight className="size-4" />

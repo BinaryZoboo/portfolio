@@ -2,7 +2,7 @@ import { Element } from "react-scroll";
 
 export default function Aboutme() {
   return (
-    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-sky-500 ring-offset-4 ring-offset-inherit md:w-3/4 dark:bg-regal-zinc-100 dark:ring-atlantis dark:ring-offset-regal-zinc-300">
+    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-sky-500 ring-offset-4 ring-offset-inherit md:w-3/4 dark:bg-regal-zinc-200 dark:ring-atlantis dark:ring-offset-regal-zinc-300">
       <Element className="hidden self-start" name="aboutme"></Element>
       <div className="flex w-full flex-col items-center space-y-6 sm:flex-row sm:space-y-0">
         {/* Image Section */}
