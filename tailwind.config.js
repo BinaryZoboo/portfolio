@@ -10,7 +10,6 @@ export default {
         "regal-zinc-200": "#272730",
         "regal-zinc-100": "#33333b",
         atlantis: "#89ce47",
-        "blue-ribbon": "#0065fc",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

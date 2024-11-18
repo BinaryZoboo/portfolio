@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const NavLink = ({ to, children }) => (
   <Link
     to={to}
-    className="text-sm text-zinc-400 transition-colors hover:text-zinc-100 active:text-zinc-100"
+    className="text-sm text-black transition-colors hover:text-sky-500 active:text-zinc-400 dark:text-zinc-300 dark:hover:text-atlantis"
   >
     {children}
   </Link>
@@ -35,7 +35,7 @@ IconButton.propTypes = {
 // Composant DarkModeButton pour le mode sombre
 const DarkModeButton = ({ children, onClick, ariaLabel }) => (
   <button
-    className="flex size-full items-center justify-center text-yellow-400 transition-colors hover:text-yellow-500 dark:text-sky-500 dark:hover:text-sky-300"
+    className="flex size-full items-center justify-center text-atlantis transition-colors hover:text-lime-800 dark:text-sky-500 dark:hover:text-sky-300"
     onClick={onClick}
     aria-label={ariaLabel}
   >
@@ -58,10 +58,10 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-2 z-10 mx-auto w-full overflow-hidden rounded-lg ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4">
+    <header className="sticky top-2 z-10 mx-auto w-full overflow-hidden rounded-lg ring-2 ring-sky-500 ring-offset-4 ring-offset-inherit md:w-3/4 dark:ring-atlantis dark:ring-offset-regal-zinc-300">
       <div className="flex h-14 w-full items-center justify-between bg-zinc-100 md:mx-auto dark:bg-regal-zinc-100">
         {/* IconButton pour le menu hamburger */}
-        <div className="flex h-full items-center px-4 md:hidden ">
+        <div className="flex h-full items-center  px-4 md:hidden ">
           <IconButton
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             ariaLabel="Toggle menu"
@@ -101,16 +101,16 @@ export default function Navbar() {
 
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-2 px-4 text-zinc-100 ">
-          <span className=" font-mono text-lg font-extrabold text-atlantis">
+          <span className=" font-mono text-lg font-extrabold text-sky-500 dark:text-atlantis">
             &lt;/&gt;
           </span>
-          <span className="bg-gradient-to-r from-zinc-500 to-white bg-clip-text text-transparent dark:from-white dark:to-zinc-500">
+          <span className="bg-gradient-to-r from-black to-zinc-400 bg-clip-text text-transparent dark:from-white dark:to-zinc-500">
             Nathan.dev
           </span>
         </Link>
 
         {/* Nav Links pour desktop */}
-        <nav className="hidden size-full cursor-pointer items-center justify-center space-x-6 bg-zinc-100 md:flex dark:bg-regal-zinc-200">
+        <nav className="hidden size-full cursor-pointer items-center justify-center space-x-6 bg-zinc-50 md:flex dark:bg-regal-zinc-200">
           <NavLink to="aboutme">A propos de moi</NavLink>
           <NavLink to="project">Projets</NavLink>
           <NavLink to="skills">Compétences</NavLink>
@@ -161,7 +161,7 @@ export default function Navbar() {
 
       {/* Menu mobile */}
       {isMenuOpen && (
-        <nav className="flex cursor-pointer flex-col items-center space-y-4 border-t border-atlantis bg-zinc-100 py-4 md:hidden dark:bg-regal-zinc-200">
+        <nav className="flex cursor-pointer flex-col items-center space-y-4 border-t border-sky-500 bg-zinc-50 py-4 md:hidden dark:border-atlantis dark:bg-regal-zinc-200">
           <NavLink to="aboutme">A propos de moi</NavLink>
           <NavLink to="project">Projets</NavLink>
           <NavLink to="skills">Compétences</NavLink>

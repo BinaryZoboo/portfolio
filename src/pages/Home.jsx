@@ -4,7 +4,7 @@ import ProjectsCarousel from "../components/ProjectsCarousel";
 
 const Home = () => {
   return (
-    <div className="bg-zinc-100 p-6 md:px-0 dark:bg-regal-zinc-300">
+    <div className="p-6 md:px-0 dark:bg-regal-zinc-300">
       <Navbar />
       <Aboutme />
       <ProjectsCarousel />

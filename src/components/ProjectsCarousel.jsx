@@ -31,7 +31,7 @@ export default function ProjectsCarousel() {
   };
 
   return (
-    <div className="mx-auto flex flex-col items-center rounded-lg bg-zinc-50 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
+    <div className="mx-auto flex flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-atlantis ring-offset-4 ring-offset-regal-zinc-300 md:w-3/4  dark:bg-regal-zinc-200">
       <Element className="self-start" name="project">
         <h2 className="bg-gradient-to-r from-atlantis to-regal-zinc-100 bg-clip-text text-transparent dark:from-atlantis dark:to-lime-800">
           • Projets
@@ -62,7 +62,8 @@ export default function ProjectsCarousel() {
         </div>
 
         {/* Boutons de navigation */}
-        <div className="absolute bottom-4 right-0 flex items-center justify-center space-x-4 px-4">
+        <div className="absolute bottom-8 right-4 items-center justify-center space-x-4 px-4">
+          {/* Boutons de navigation */}
           <Button
             variant="outline"
             size="icon"

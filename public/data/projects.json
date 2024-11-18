@@ -10,14 +10,13 @@
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
   },
   {
-    "image": "../assets/booki.webp",
+    "image": "../assets/sophiebluel.webp",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
     "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
-    "technologies": ["HTML", "CSS", "Figma"],
-    "demoUrl": "https://binaryzoboo.github.io/Booki/",
-    "githubUrl": "https://github.com/BinaryZoboo/Booki"
+    "technologies": ["HTML", "CSS", "JS", "Figma"],
+    "githubUrl": "https://github.com/BinaryZoboo/portfolio_architecte"
   },
   {
     "image": "../assets/booki.webp",
@@ -36,7 +35,6 @@
     "difficulty": "Bon placement de chaque élément sur la page.",
     "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
     "technologies": ["HTML", "CSS", "Figma"],
-    "demoUrl": "https://binaryzoboo.github.io/Booki/",
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
   }
 ]
