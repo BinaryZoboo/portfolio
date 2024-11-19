@@ -7,9 +7,11 @@ const Home = () => {
   return (
     <div className="p-6 md:px-0 dark:bg-regal-zinc-300">
       <Navbar />
-      <Aboutme />
-      <ProjectsCarousel />
-      <Skills />
+      <main>
+        <Aboutme />
+        <ProjectsCarousel />
+        <Skills />
+      </main>
     </div>
   );
 };

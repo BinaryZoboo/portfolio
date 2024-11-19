@@ -55,9 +55,9 @@ export default function Aboutme() {
           <div className="flex flex-wrap justify-center gap-4 pt-4 sm:justify-start">
             {[
               "nodejs.svg",
-              "mongodb-original-wordmark.svg",
+              "mongodb.svg",
               "javascript-js.svg",
-              "react-original-wordmark.svg",
+              "react-original.svg",
             ].map((icon, index) => (
               <img
                 key={index}
