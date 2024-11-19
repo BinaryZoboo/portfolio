@@ -67,7 +67,16 @@ export default function Aboutme() {
               ></img>
             ))}
             <div className="flex items-end text-xs text-zinc-800 opacity-80 dark:text-zinc-300">
-              et plus encore...
+              et plus encore
+              <span className="hover:animate-bounce hover:cursor-default">
+                .
+              </span>
+              <span className="hover:animate-bounce hover:cursor-default">
+                .
+              </span>
+              <span className="hover:animate-bounce hover:cursor-default">
+                .
+              </span>
             </div>
           </div>
 

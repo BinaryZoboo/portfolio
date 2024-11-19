@@ -67,7 +67,7 @@ export default function ProjectsCarousel() {
           <Button
             variant="outline"
             size="icon"
-            className="absolute left-1 top-1/2 z-50 bg-background/80 text-sky-500 backdrop-blur-sm min-[520px]:bottom-9 min-[520px]:left-auto min-[520px]:right-20 min-[520px]:top-auto dark:text-atlantis"
+            className="absolute left-1 top-1/2 bg-background/80 text-sky-500 backdrop-blur-sm min-[520px]:bottom-9 min-[520px]:left-auto min-[520px]:right-20 min-[520px]:top-auto dark:text-atlantis"
             onClick={prevSlide}
           >
             <ChevronLeft className="size-4" />

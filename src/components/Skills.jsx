@@ -6,29 +6,47 @@ import {
 } from "framer-motion";
 import PropTypes from "prop-types";
 import { useRef } from "react";
+import { LiaMousePointerSolid } from "react-icons/lia";
 import { Element } from "react-scroll";
 
 const Skills = () => {
   return (
-    <div className="mx-auto my-6 flex h-auto w-full flex-col items-center rounded-lg bg-zinc-100 p-4 ring-2 ring-sky-500 ring-offset-4 ring-offset-inherit md:w-3/4 dark:bg-regal-zinc-200 dark:ring-atlantis dark:ring-offset-regal-zinc-300">
-      <Element className="mb-4" name="skills">
-        <h2 className="bg-gradient-to-r from-sky-500 to-sky-800 bg-clip-text text-transparent dark:from-atlantis dark:to-lime-800">
+    <div className="mx-auto my-6 flex h-auto w-full flex-col rounded-lg bg-zinc-100 p-4 ring-2 ring-sky-500 ring-offset-4 ring-offset-inherit md:w-3/4 dark:bg-regal-zinc-200 dark:ring-atlantis dark:ring-offset-regal-zinc-300">
+      <Element className="mb-4 flex w-full flex-col items-center" name="skills">
+        <h2 className="text-nowrap bg-gradient-to-r from-sky-500 to-sky-800 bg-clip-text text-transparent dark:from-atlantis dark:to-lime-800">
           • Skills
         </h2>
       </Element>
       <div className="flex">
-        <div className="flex flex-wrap place-content-center items-center gap-4">
-          <TiltCard prop={"nodejs.svg"} />
-          <TiltCard prop={"javascript-js.svg"} />
-          <TiltCard prop={"react-original.svg"} />
-          <TiltCard prop={"mongodb.svg"} />
+        <div className="flex w-1/2 flex-col space-y-4">
+          <div className="flex flex-wrap place-content-center items-center gap-4">
+            <TiltCard prop={"nodejs.svg"} />
+            <TiltCard prop={"javascript-js.svg"} />
+            <TiltCard prop={"react-original.svg"} />
+            <TiltCard prop={"mongodb.svg"} />
+          </div>
         </div>
-        <ul>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>HTML</li>
-          <li>CSS</li>
+        <ul className="flex w-1/2 flex-col place-content-between ">
+          <li>
+            Front-end :<span>Ola</span>
+          </li>
+          <li>
+            Back-end :<span>Senior</span>
+          </li>
+          <li>
+            Database :<span>De</span>
+          </li>
+          <li>
+            Outils :<span>La</span>
+          </li>
+          <li>
+            Autres :<span>Paela</span>
+          </li>
         </ul>
+      </div>
+      <div className="flex h-10 flex-col flex-nowrap self-end">
+        <LiaMousePointerSolid className="flex text-4xl" />
+        <p className="text-nowrap text-xs">Hover it!</p>
       </div>
     </div>
   );
@@ -80,14 +98,14 @@ function TiltCard({ prop }) {
         transformStyle: "preserve-3d",
         transform,
       }}
-      className="relative size-24 rounded-xl bg-gradient-to-br from-atlantis to-lime-800"
+      className="relative size-20 rounded-xl bg-gradient-to-br from-sky-500 to-sky-800 dark:from-atlantis dark:to-lime-800"
     >
       <div
         style={{
           transform: "translateZ(40px)",
           transformStyle: "preserve-3d",
         }}
-        className="absolute inset-1 grid place-content-center rounded-xl bg-transparent shadow-lg"
+        className="absolute inset-0 place-content-center rounded-xl bg-transparent shadow-lg"
       >
         <img
           style={{

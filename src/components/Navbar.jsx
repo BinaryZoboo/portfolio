@@ -162,7 +162,7 @@ export default function Navbar() {
       {/* Menu mobile */}
       {isMenuOpen && (
         <nav className="flex cursor-pointer flex-col items-center space-y-4 border-t border-sky-500 bg-zinc-50 py-4 md:hidden dark:border-atlantis dark:bg-regal-zinc-200">
-          <NavLink to="aboutme">A propos de moi</NavLink>
+          <NavLink to="about-me">A propos de moi</NavLink>
           <NavLink to="project">Projets</NavLink>
           <NavLink to="skills">Compétences</NavLink>
           <NavLink to="contact">Contact</NavLink>
