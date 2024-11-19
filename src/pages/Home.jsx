@@ -1,6 +1,7 @@
 import Aboutme from "../components/Aboutme";
 import Navbar from "../components/Navbar";
 import ProjectsCarousel from "../components/ProjectsCarousel";
+import Skills from "../components/Skills";
 
 const Home = () => {
   return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Navbar />
       <Aboutme />
       <ProjectsCarousel />
+      <Skills />
     </div>
   );
 };

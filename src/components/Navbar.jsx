@@ -111,7 +111,7 @@ export default function Navbar() {
 
         {/* Nav Links pour desktop */}
         <nav className="hidden size-full cursor-pointer items-center justify-center space-x-6 bg-zinc-50 md:flex dark:bg-regal-zinc-200">
-          <NavLink to="aboutme">A propos de moi</NavLink>
+          <NavLink to="about-me">A propos de moi</NavLink>
           <NavLink to="project">Projets</NavLink>
           <NavLink to="skills">Compétences</NavLink>
           <NavLink to="contact">Contact</NavLink>

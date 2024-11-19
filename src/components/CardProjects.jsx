@@ -25,7 +25,7 @@ export default function CardProject({
   githubUrl,
 }) {
   const buttonClass =
-    "flex justify-center items-center gap-2 rounded-md px-4 py-2 transition-colors";
+    "flex justify-center text-black items-center gap-2 rounded-md px-4 py-2 transition-colors";
   const demoButtonClass = `${buttonClass} bg-green-600 hover:bg-green-700`;
 
   return (
