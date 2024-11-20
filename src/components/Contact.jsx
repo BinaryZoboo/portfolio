@@ -94,7 +94,7 @@ export default function ContactForm() {
             placeholder="Message"
             required
             rows={6}
-            className="w-full resize-none rounded border px-4 py-2 text-white transition-colors placeholder:text-zinc-500 focus:border-sky-700 focus:outline-none dark:border-zinc-700 dark:bg-zinc-800 dark:focus:border-atlantis"
+            className="w-full resize-none rounded border px-4 py-2 text-black transition-colors placeholder:text-zinc-500 focus:border-sky-700 focus:outline-none dark:border-zinc-700 dark:bg-zinc-800 dark:text-white dark:focus:border-atlantis"
           />
 
           <button
