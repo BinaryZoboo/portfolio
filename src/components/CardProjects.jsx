@@ -40,7 +40,7 @@ export default function CardProject({
               e.target.onerror = null;
               e.target.src = "/path/to/fallback/image.jpg";
             }}
-            className="flex max-h-32  min-h-32 w-full items-center justify-center object-fill text-lg font-bold text-white lg:min-h-0"
+            className="flex max-h-32  min-h-32 w-full items-center justify-center object-contain text-lg font-bold text-white lg:min-h-0"
           />
         </div>
         <div className="space-y-4 sm:pb-6 lg:w-2/3">

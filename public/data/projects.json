@@ -4,8 +4,8 @@
     "alt": "logo booki",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
-    "difficulty": "Bon placement de chaque élément sur la page.",
-    "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
+    "difficulty": "Placement de chaque élément sur la page.",
+    "soluce": "Utilisation de Flexbox. Entrainement sur flexboxfroggy.com",
     "technologies": ["HTML", "CSS", "Figma"],
     "demoUrl": "https://binaryzoboo.github.io/Booki/",
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
@@ -13,33 +13,32 @@
   {
     "image": "../assets/sophiebluel.webp",
     "alt": "logo sophiebluel",
-    "title": "Page d'accueil d'une agence de voyage",
-    "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
-    "difficulty": "Bon placement de chaque élément sur la page.",
-    "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
-    "technologies": ["HTML", "CSS", "JS", "Figma"],
+    "title": "Portfolio d'une architecte",
+    "description": "Création d'un portfolio pour une architecte en utilisant HTML, CSS et JavaScript.",
+    "difficulty": "Communication avec l'API. Et gestion des données reçues.",
+    "soluce": "Utilisation de Fetch pour récupérer les données. ",
+    "technologies": ["HTML", "CSS", "Node.js", "JavaScript", "Figma"],
     "githubUrl": "https://github.com/BinaryZoboo/portfolio_architecte"
   },
   {
-    "image": "../assets/booki.webp",
-    "alt": "logo booki",
-    "title": "Page d'accueil d'une agence de voyage",
-    "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
-    "difficulty": "Bon placement de chaque élément sur la page.",
-    "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
-    "technologies": ["HTML", "CSS", "Figma"],
-    "demoUrl": "https://binaryzoboo.github.io/Booki/",
-    "githubUrl": "https://github.com/BinaryZoboo/Booki"
+    "image": "../assets/Nina.webp",
+    "alt": "logo Nina",
+    "title": "Débogage et amélioration d'un site web",
+    "description": "Amelioration du site web d'une photographe, SEO et débogage.",
+    "difficulty": "Mise en place de l'optimisation SEO.",
+    "soluce": "Utilisation de Ligthhouse, WAVE et Google DevTools pour identifier les problèmes.",
+    "technologies": ["Lighthouse", "WAVE", "Coolors", "WCAG"],
+    "demoUrl": "https://binaryzoboo.github.io/nina_carducci/",
+    "githubUrl": "https://github.com/BinaryZoboo/nina_carducci"
   },
   {
-    "image": "../assets/booki.webp",
-    "alt": "logo booki",
-    "title": "Page d'accueil d'une agence de voyage",
-    "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
-    "difficulty": "Bon placement de chaque élément sur la page.",
-    "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
-    "technologies": ["HTML", "CSS", "Figma"],
-    "demoUrl": "https://binaryzoboo.github.io/Booki/",
-    "githubUrl": "https://github.com/BinaryZoboo/Booki"
+    "image": "../assets/Kasa.webp",
+    "alt": "logo Kasa",
+    "title": "Kasa, site de location de logements",
+    "description": "Création d'une page de location de logements en utilisant HTML, SASS et JavaScript avec React.",
+    "difficulty": "Prise en main de React et gestion des fichiers SASS.",
+    "soluce": "Creation de composants React pour chaque élément de la page. Aide via des tutoriels pour SASS sur Internet. ",
+    "technologies": ["HTML", "SASS", "React", "JavaScript", "Figma"],
+    "githubUrl": "https://github.com/BinaryZoboo/Kasa_"
   }
 ]

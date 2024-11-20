@@ -12,8 +12,10 @@ const Home = () => {
         <Aboutme />
         <ProjectsCarousel />
         <Skills />
-        <Contact />
       </main>
+      <footer>
+        <Contact />
+      </footer>
     </div>
   );
 };
