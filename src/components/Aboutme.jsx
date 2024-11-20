@@ -9,7 +9,7 @@ export default function Aboutme() {
         <div className="h-60 rounded-2xl md:mr-5">
           <img
             src="../../assets/photo.webp"
-            alt="Description of image"
+            alt="Profile"
             className="h-full object-fill"
           />
         </div>
@@ -51,17 +51,17 @@ export default function Aboutme() {
           {/* Icons Section */}
           <div className="flex flex-wrap justify-center gap-4 pt-4 sm:justify-start">
             {[
-              "nodejs.svg",
-              "mongodb.svg",
-              "javascript-js.svg",
-              "react-original.svg",
-            ].map((icon, index) => (
+              { icon: "nodejs.svg", alt: "Logo Node.js" },
+              { icon: "mongodb.svg", alt: "Logo MongoDB" },
+              { icon: "javascript-js.svg", alt: "Logo JavaScript" },
+              { icon: "react-original.svg", alt: "Logo React" },
+            ].map(({ icon, alt }, index) => (
               <img
                 key={index}
                 className="size-10"
                 src={`../../assets/${icon}`}
-                alt={`Logo ${icon}`}
-              ></img>
+                alt={alt}
+              />
             ))}
             <div className="flex items-end text-xs text-zinc-800 opacity-80 dark:text-zinc-300">
               et plus encore

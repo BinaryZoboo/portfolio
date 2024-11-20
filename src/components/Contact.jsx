@@ -59,6 +59,7 @@ export default function ContactForm() {
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="grid grid-cols-2 gap-4">
             <input
+              aria-label="Nom"
               type="text"
               name="name"
               placeholder="Nom"
@@ -66,6 +67,7 @@ export default function ContactForm() {
               className="rounded border px-4 py-2 text-white transition-colors placeholder:text-zinc-500 focus:border-sky-700 focus:outline-none dark:border-zinc-700 dark:bg-zinc-800 dark:focus:border-atlantis"
             />
             <input
+              aria-label="Téléphone"
               type="tel"
               name="phone"
               placeholder="Téléphone"
@@ -76,12 +78,14 @@ export default function ContactForm() {
           <div className="grid grid-cols-2 gap-4">
             <input
               type="email"
+              aria-label="Email"
               name="email"
               placeholder="Email"
               required
               className="rounded border px-4 py-2 text-white transition-colors placeholder:text-zinc-500 focus:border-sky-700 focus:outline-none dark:border-zinc-700 dark:bg-zinc-800 dark:focus:border-atlantis"
             />
             <input
+              aria-label="Sujet"
               type="text"
               name="subject"
               placeholder="Sujet"
@@ -91,6 +95,7 @@ export default function ContactForm() {
 
           <textarea
             name="message"
+            aria-label="Message"
             placeholder="Message"
             required
             rows={6}

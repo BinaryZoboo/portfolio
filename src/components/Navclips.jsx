@@ -44,7 +44,7 @@ const Chip = ({ text, selected, setSelected, scrollId }) => {
         onClick={() => setSelected(text)}
         className={`${
           selected
-            ? "text-white"
+            ? "text-black dark:text-white"
             : "text-black hover:bg-slate-700 hover:text-slate-200 dark:text-white"
         } relative rounded-md px-2.5 py-0.5 text-sm transition-colors`}
       >
@@ -53,7 +53,7 @@ const Chip = ({ text, selected, setSelected, scrollId }) => {
           <motion.span
             layoutId="pill-tab"
             transition={{ type: "spring", duration: 0.5 }}
-            className="absolute inset-0 z-0 rounded-md bg-gradient-to-r from-sky-600 to-sky-800 dark:from-lime-600 dark:to-lime-800"
+            className="absolute inset-0 z-0 rounded-md bg-gradient-to-r from-sky-400 to-sky-600 dark:from-lime-600 dark:to-lime-800"
           ></motion.span>
         )}
       </button>

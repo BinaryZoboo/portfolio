@@ -15,6 +15,7 @@ ProjectDetailRow.propTypes = {
 };
 
 export default function CardProject({
+  alt,
   image,
   title,
   description,
@@ -34,7 +35,7 @@ export default function CardProject({
         <div className="items-center justify-center md:flex lg:w-1/3 dark:bg-regal-zinc-200">
           <img
             src={image}
-            alt={`${title} project image`}
+            alt={alt}
             onError={(e) => {
               e.target.onerror = null;
               e.target.src = "/path/to/fallback/image.jpg";
@@ -84,6 +85,7 @@ export default function CardProject({
 }
 
 CardProject.propTypes = {
+  alt: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,

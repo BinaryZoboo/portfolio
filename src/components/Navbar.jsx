@@ -102,7 +102,7 @@ export default function Navbar() {
 
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-2 px-4 text-zinc-100 ">
-          <span className=" font-mono text-lg font-extrabold text-sky-600 dark:text-atlantis">
+          <span className=" font-mono text-lg font-extrabold text-sky-700 dark:text-atlantis">
             &lt;/&gt;
           </span>
           <span className="bg-gradient-to-r from-black to-zinc-400 bg-clip-text text-transparent dark:from-white dark:to-zinc-500">

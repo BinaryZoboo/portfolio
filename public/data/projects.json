@@ -1,6 +1,7 @@
 [
   {
     "image": "../assets/booki.webp",
+    "alt": "logo booki",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
@@ -11,6 +12,7 @@
   },
   {
     "image": "../assets/sophiebluel.webp",
+    "alt": "logo sophiebluel",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
@@ -20,6 +22,7 @@
   },
   {
     "image": "../assets/booki.webp",
+    "alt": "logo booki",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
@@ -30,11 +33,13 @@
   },
   {
     "image": "../assets/booki.webp",
+    "alt": "logo booki",
     "title": "Page d'accueil d'une agence de voyage",
     "description": "Création d'une page d'accueil en utilisant HTML et CSS.",
     "difficulty": "Bon placement de chaque élément sur la page.",
     "soluce": "Utilisation de Flexbox pour aligner les éléments. Entrainement sur flexboxfroggy.com",
     "technologies": ["HTML", "CSS", "Figma"],
+    "demoUrl": "https://binaryzoboo.github.io/Booki/",
     "githubUrl": "https://github.com/BinaryZoboo/Booki"
   }
 ]
