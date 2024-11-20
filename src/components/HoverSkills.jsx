@@ -73,7 +73,7 @@ export default function Hoverskills({ prop, isActive }) {
       >
         <img
           style={{
-            transform: "translateZ(15px)",
+            transform: "translateZ(20px)",
           }}
           className="w-full place-content-center rounded-xl text-center"
           src={`../../assets/${prop}`}

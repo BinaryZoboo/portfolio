@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 import { Link } from "react-scroll";
+import ChipTabs from "./Navclips";
 
 // Composant NavLink pour les liens de navigation
 const NavLink = ({ to, children }) => (
@@ -110,12 +111,7 @@ export default function Navbar() {
         </Link>
 
         {/* Nav Links pour desktop */}
-        <nav className="hidden size-full cursor-pointer items-center justify-center space-x-6 bg-zinc-50 md:flex dark:bg-regal-zinc-200">
-          <NavLink to="about-me">A propos de moi</NavLink>
-          <NavLink to="project">Projets</NavLink>
-          <NavLink to="skills">Compétences</NavLink>
-          <NavLink to="contact">Contact</NavLink>
-        </nav>
+        <ChipTabs />
 
         {/* Dark Mode Button */}
         <div className="h-full items-center  px-4 md:flex">
