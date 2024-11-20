@@ -29,7 +29,7 @@ export default function Aboutme() {
           <div className="text-balance text-4xl font-bold text-black md:text-5xl lg:text-6xl dark:text-white">
             <h1 className="flex flex-wrap text-black dark:text-white">
               Junior
-              <span className="text-sky-500 dark:text-atlantis">
+              <span className="text-sky-600 dark:text-atlantis">
                 &nbsp;{"{Web}"}&nbsp;
               </span>
               Developer<span className="animate-pulse">_</span>
@@ -37,18 +37,15 @@ export default function Aboutme() {
           </div>
 
           <div className="font-mono text-zinc-800 dark:text-zinc-300">
-            <span className="opacity-60">{"<p>"}</span>
+            <span className="text-green-700 dark:text-zinc-400">{"<p>"}</span>
             Avec une expertise des technologies à la pointe telles que
-            <span className="text-green-700 dark:text-pink-400"> NodeJS</span>,
-            <span className="text-green-700 dark:text-pink-400"> React</span>,
-            <span className="text-green-700 dark:text-pink-400">
-              {" "}
-              Javascript
-            </span>
+            <span className="text-sky-700 dark:text-pink-400"> NodeJS</span>,
+            <span className="text-sky-700 dark:text-pink-400"> React</span>,
+            <span className="text-sky-700 dark:text-pink-400"> Javascript</span>
             , et
-            <span className="text-green-700 dark:text-pink-400"> Tailwind</span>
+            <span className="text-sky-700 dark:text-pink-400"> Tailwind</span>
             ... Je donne des solutions web innovantes et performantes.
-            <span className="opacity-60">{"</p>"}</span>
+            <span className="text-green-700 dark:text-zinc-400">{"</p>"}</span>
           </div>
 
           {/* Icons Section */}
@@ -61,7 +58,7 @@ export default function Aboutme() {
             ].map((icon, index) => (
               <img
                 key={index}
-                className="size-10 text-zinc-400 dark:text-zinc-300"
+                className="size-10"
                 src={`../../assets/${icon}`}
                 alt={`Logo ${icon}`}
               ></img>

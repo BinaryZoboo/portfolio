@@ -35,7 +35,7 @@ IconButton.propTypes = {
 // Composant DarkModeButton pour le mode sombre
 const DarkModeButton = ({ children, onClick, ariaLabel }) => (
   <button
-    className="flex size-full items-center justify-center text-atlantis transition-colors hover:text-lime-800 dark:text-sky-500 dark:hover:text-sky-300"
+    className="flex size-full items-center justify-center text-green-600 transition-colors hover:text-lime-800 dark:text-sky-500 dark:hover:text-sky-300"
     onClick={onClick}
     aria-label={ariaLabel}
   >
@@ -101,7 +101,7 @@ export default function Navbar() {
 
         {/* Logo Section */}
         <Link to="/" className="flex items-center gap-2 px-4 text-zinc-100 ">
-          <span className=" font-mono text-lg font-extrabold text-sky-500 dark:text-atlantis">
+          <span className=" font-mono text-lg font-extrabold text-sky-600 dark:text-atlantis">
             &lt;/&gt;
           </span>
           <span className="bg-gradient-to-r from-black to-zinc-400 bg-clip-text text-transparent dark:from-white dark:to-zinc-500">

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const ProjectDetailRow = ({ label, value }) => (
   <div className="flex flex-col justify-between md:flex-row">
     <span className="text-black dark:text-white">{label}:</span>
-    <span className="text-zinc-600 md:text-right dark:text-zinc-300">
+    <span className="text-zinc-600 md:text-right dark:text-zinc-400">
       {value}
     </span>
   </div>
@@ -43,7 +43,7 @@ export default function CardProject({
           />
         </div>
         <div className="space-y-4 sm:pb-6 lg:w-2/3">
-          <h2 className="text-2xl font-bold text-sky-500 dark:text-atlantis">
+          <h2 className="text-2xl font-bold text-sky-600 dark:text-atlantis">
             {title}
           </h2>
           <p className="text-green-700 dark:text-pink-400">{description}</p>
