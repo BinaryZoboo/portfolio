@@ -39,13 +39,13 @@ export default function Aboutme() {
 
           <div className="font-mono text-zinc-800 dark:text-zinc-300">
             <span className="text-green-700 dark:text-zinc-400">{"<p>"}</span>
-            Avec une expertise des technologies à la pointe telles que
+            Avec une expertise dans des technologies à la pointe telles que
             <span className="text-sky-700 dark:text-pink-400"> NodeJS</span>,
             <span className="text-sky-700 dark:text-pink-400"> React</span>,
             <span className="text-sky-700 dark:text-pink-400"> Javascript</span>
             , et
             <span className="text-sky-700 dark:text-pink-400"> Tailwind</span>
-            ... Je donne des solutions web innovantes et performantes.
+            ... Je proposes des solutions web innovantes et performantes.
             <span className="text-green-700 dark:text-zinc-400">{"</p>"}</span>
           </div>
 
