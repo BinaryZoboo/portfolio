@@ -20,7 +20,8 @@ export default function Aboutme() {
             <span className="text-green-700 dark:text-pink-400">
               {"<span>"}
             </span>
-            Hey, je m&apos;appelle Nathan
+            Hey, je m&apos;appelle Nathan, récemment diplômé d&apos;un BAC+2
+            Développeur Web, chez OpenClassrooms.
             <span className="text-green-700 dark:text-pink-400">
               {"</span>"}
             </span>
