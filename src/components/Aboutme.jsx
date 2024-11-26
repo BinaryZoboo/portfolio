@@ -45,7 +45,7 @@ export default function Aboutme() {
             <span className="text-sky-700 dark:text-pink-400"> Javascript</span>
             , et
             <span className="text-sky-700 dark:text-pink-400"> Tailwind</span>
-            ... Je proposes des solutions web innovantes et performantes.
+            ... Je propose des solutions web innovantes et performantes.
             <span className="text-green-700 dark:text-zinc-400">{"</p>"}</span>
           </div>
 
